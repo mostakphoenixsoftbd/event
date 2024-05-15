@@ -51,6 +51,7 @@ class EventController extends Controller
             return to_route('events.index');
         } else {
             return back();
+            
         }
     }
 
